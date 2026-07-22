@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Areej Adel — AI Engineer &amp; Frontend Developer</title>
+<meta name="description" content="Portfolio of Areej Adel — AI Engineer and Frontend Developer. IEEE-published researcher in LLM evaluation. React · TypeScript · Django." />
+<style>
+  :root{
+    --bg:#0b1b33; --panel:#0f2542; --panel2:#12294a;
+    --ink:#eaf2fb; --muted:#9fb6d4; --line:#22406b;
+    --accent:#60b3ff; --accent2:#8ccaff; --chip:#16305a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:radial-gradient(1200px 600px at 80% -10%,#1b3a5f 0%,#0b1b33 55%) ,#0b1b33;
+    color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent2);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:880px;margin:0 auto;padding:0 22px}
+
+  /* header */
+  header{padding:72px 0 34px}
+  .eyebrow{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;letter-spacing:.14em;color:var(--accent);text-transform:uppercase}
+  h1{font-size:46px;line-height:1.08;letter-spacing:-.5px;margin:10px 0 8px}
+  .role{font-size:19px;color:var(--muted)}
+  .rule{height:3px;width:80px;background:var(--accent);border-radius:2px;margin:20px 0}
+  .stack{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;color:#7fa6d6}
+  .links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .links a{
+    display:inline-flex;align-items:center;gap:7px;padding:9px 15px;border:1px solid var(--line);
+    border-radius:999px;color:var(--ink);font-size:14px;background:rgba(22,48,90,.35)
+  }
+  .links a:hover{border-color:var(--accent);text-decoration:none;background:rgba(96,179,255,.12)}
+  .meta{margin-top:16px;color:var(--muted);font-size:14px}
+
+  /* sections */
+  section{padding:34px 0;border-top:1px solid var(--line)}
+  .kicker{font-family:ui-monospace,monospace;font-size:12px;letter-spacing:.16em;color:var(--accent);text-transform:uppercase;margin-bottom:18px}
+  .card{
+    background:linear-gradient(180deg,rgba(18,41,74,.9),rgba(15,37,66,.75));
+    border:1px solid var(--line);border-radius:14px;padding:22px 22px;margin-bottom:16px
+  }
+  .card h3{font-size:19px;margin-bottom:4px}
+  .card .sub{color:var(--muted);font-size:14px;margin-bottom:12px}
+  .card p{color:#cddcf0;font-size:15px;margin-bottom:12px}
+  .badges{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:6px}
+  .badge{font-size:12.5px;color:#bcd6f5;background:var(--chip);border:1px solid var(--line);border-radius:7px;padding:4px 9px}
+  .cardlinks{display:flex;flex-wrap:wrap;gap:16px;margin-top:12px;font-size:14px}
+  .cardlinks a{display:inline-flex;align-items:center;gap:6px}
+  .tag{display:inline-block;font-size:11.5px;font-weight:600;letter-spacing:.04em;color:#0b1b33;background:var(--accent2);border-radius:6px;padding:3px 8px;margin-left:8px;vertical-align:middle}
+  .nda{font-size:13px;color:#8aa3c6;font-style:italic;border-left:2px solid var(--accent);padding-left:12px;margin-top:6px}
+
+  .demo{
+    display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;
+    background:linear-gradient(120deg,rgba(96,179,255,.14),rgba(18,41,74,.6));
+    border:1px solid var(--accent);border-radius:14px;padding:22px
+  }
+  .demo .btn{
+    background:var(--accent);color:#06162c;font-weight:700;padding:11px 20px;border-radius:10px;
+    font-size:15px;white-space:nowrap
+  }
+  .demo .btn:hover{background:var(--accent2);text-decoration:none}
+
+  footer{padding:40px 0 60px;color:var(--muted);font-size:13.5px;border-top:1px solid var(--line);text-align:center}
+  @media(max-width:560px){ h1{font-size:34px} header{padding:54px 0 24px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">Areej Adel</div>
+    <h1>AI Engineer &amp; Frontend Developer</h1>
+    <div class="role">I build web apps in React &amp; TypeScript, and design the AI layer inside them — LLM agents, retrieval, and evaluation.</div>
+    <div class="rule"></div>
+    <div class="stack">LLM Agents / RAG / Evaluation · React · TypeScript · Django</div>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/areejabw123/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/areejadel" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:areejbawazir1@gmail.com">Email</a>
+    </div>
+    <div class="meta">MSc, Artificial Intelligence — First Class Honours · Saudi Arabia · Open to remote</div>
+    <div class="meta" style="opacity:.7;font-size:13px;margin-top:3px">Legal name (per passport): Areg Bawazir</div>
+  </header>
+
+  <!-- RESEARCH -->
+  <section id="research">
+    <div class="kicker">Published Research</div>
+
+    <div class="card">
+      <h3>AraEduAgent — Arabic LLM Benchmark for Student Simulation <span class="tag">IEEE Access · First author</span></h3>
+      <div class="sub">Peer-reviewed · IEEE Access, Vol. 14 · Open access</div>
+      <p>
+        The first Arabic adaptation of the EduAgent benchmark for generative student simulation, plus the full
+        evaluation pipeline behind it. Benchmarks five LLMs — GPT-3.5 Turbo, GPT-4o Mini, Llama 3.1, Qwen2.5 and
+        ALLaM-7B — on behavioural, cognitive and assessment metrics, validated against real eye-tracking (AOI) gaze
+        data and quiz responses from university students. Designs and compares three context-reduction strategies,
+        including LLMLingua-2 prompt compression with XLM-RoBERTa sanitisation.
+      </p>
+      <div class="badges">
+        <span class="badge">LLM benchmarking</span><span class="badge">ALLaM-7B</span>
+        <span class="badge">Prompt compression</span><span class="badge">Dataset construction</span>
+        <span class="badge">Inter-annotator agreement</span>
+      </div>
+      <div class="cardlinks">
+        <a href="https://ieeexplore.ieee.org/document/11550092" target="_blank" rel="noopener">→ Paper (IEEE Xplore)</a>
+        <a href="https://github.com/areejadel/AraEduAgent" target="_blank" rel="noopener">→ Code &amp; data (GitHub)</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>HyMACS / DATR — Cross-Family Evaluation of LLM-Generated Lectures <span class="tag">In preparation</span></h3>
+      <div class="sub">Research project · in preparation for journal submission</div>
+      <p>
+        A multi-agent pipeline that generates university-level lectures, grounds them in reference textbooks using
+        retrieval-augmented generation (FAISS + MiniLM), and refines them with Dimension-Aware Targeted Refinement
+        and a regression guard. Evaluation pairs an inner judge (GPT-4o) with a cross-family panel of external judges
+        across six generators.
+      </p>
+      <p style="margin-bottom:0">
+        <strong>Key finding:</strong> models cannot meaningfully grade their own output — which motivated the
+        cross-family panel. Reliability measured with Krippendorff's α, a self-preference matrix, and paired
+        Wilcoxon significance testing.
+      </p>
+      <div class="badges" style="margin-top:12px">
+        <span class="badge">Multi-agent</span><span class="badge">RAG (FAISS + MiniLM)</span>
+        <span class="badge">LLM-as-judge</span><span class="badge">Krippendorff's α</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENGINEERING -->
+  <section id="engineering">
+    <div class="kicker">Engineering Experience</div>
+    <div class="card">
+      <h3>Frontend &amp; Full-Stack Development — SeedLab</h3>
+      <div class="sub">Nov 2023 – present · Remote · client web platforms</div>
+      <p>
+        Frontend across a portfolio of client platforms, plus full-stack work (frontend, backend and AI layer) on one
+        of them. Because client code is under NDA, this portfolio describes the tools, architecture and practices
+        rather than the products — the same skills, verifiable in the live demo below.
+      </p>
+      <div class="badges">
+        <span class="badge">React 18 + TypeScript</span><span class="badge">Vite</span>
+        <span class="badge">Tailwind CSS</span><span class="badge">TanStack Query</span>
+        <span class="badge">Zod</span><span class="badge">react-i18next (AR/EN · RTL)</span>
+        <span class="badge">Vitest · RTL · MSW</span><span class="badge">dnd-kit</span>
+        <span class="badge">Django · DRF · JWT</span><span class="badge">Docker · nginx</span>
+        <span class="badge">GitLab CI</span>
+      </div>
+      <p class="nda">Production code is under NDA. Architecture and technical details available on request.</p>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section id="demo">
+    <div class="kicker">Work Sample — Live Demo</div>
+    <div class="demo">
+      <div>
+        <h3 style="margin-bottom:6px">Bilingual AI-Ops Dashboard</h3>
+        <div style="color:#cddcf0;font-size:14.5px;max-width:520px">
+          A self-built demo I own and can share freely — same production stack as my client work:
+          React 18 + TypeScript, Tailwind, TanStack Query + MSW, Zod validation, dnd-kit drag-and-drop,
+          full Arabic/English with RTL, and a structured-output AI assistant panel. Tested with Vitest.
+        </div>
+      </div>
+      <a class="btn" href="./demo/" target="_blank" rel="noopener">View demo →</a>
+    </div>
+  </section>
+
+  <footer>
+    Areej Adel · AI Engineer &amp; Frontend Developer ·
+    <a href="mailto:areejbawazir1@gmail.com">areejbawazir1@gmail.com</a>
+  </footer>
+
+</div>
+</body>
+</html>

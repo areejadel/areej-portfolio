@@ -1,0 +1,44 @@
+{
+  "app": {
+    "title": "AI-Ops Dashboard",
+    "subtitle": "Bilingual demo · React + TypeScript + Tailwind"
+  },
+  "lang": { "toggle": "العربية" },
+  "board": {
+    "columns": {
+      "todo": "To do",
+      "doing": "In progress",
+      "done": "Done"
+    },
+    "loading": "Loading tasks…",
+    "error": "Could not load tasks.",
+    "empty": "No tasks yet",
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    }
+  },
+  "form": {
+    "add": "Add task",
+    "titleLabel": "Title",
+    "titlePlaceholder": "e.g. Wire up the login form",
+    "priorityLabel": "Priority",
+    "submit": "Add",
+    "errors": {
+      "titleMin": "Title must be at least 3 characters",
+      "titleMax": "Title must be under 80 characters"
+    }
+  },
+  "assistant": {
+    "title": "AI assistant",
+    "hint": "Describe a task and get suggested subtasks (structured output).",
+    "placeholder": "e.g. Build a bilingual settings page",
+    "ask": "Suggest subtasks",
+    "thinking": "Thinking…",
+    "summary": "Summary",
+    "subtasks": "Suggested subtasks",
+    "addAll": "Add all to board",
+    "estimate": "{{count}} min"
+  }
+}
