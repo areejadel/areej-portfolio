@@ -1,0 +1,4 @@
+# This is a React / TypeScript project. The static HTML files are just the
+# portfolio cover page and the Vite entry point — don't count them toward the
+# repository's language statistics, so TypeScript shows as the primary language.
+*.html linguist-documentation
